@@ -3,6 +3,11 @@
     <title>index</title>
 @endpush
 @section('main-section')
+</div><!--/.header-area-->
+<div class="clearfix"></div>
+
+</div><!-- /.top-area-->
+<!-- top-area End -->
     <div class="container">
         <div class="welcome-hero-txt">
             <h2>get your desired car in resonable price</h2>
