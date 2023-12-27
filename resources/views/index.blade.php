@@ -1,4 +1,7 @@
 @extends('layout.main')
+@push('title')
+    <title>index</title>
+@endpush
 @section('main-section')
     <div class="container">
         <div class="welcome-hero-txt">

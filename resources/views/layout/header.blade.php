@@ -16,38 +16,38 @@
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
 
     <!-- title of site -->
-    <title>CarVilla</title>
+    @stack('title')
 
     <!-- For favicon png -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
+    <link rel="shortcut icon" type="image/icon" href="{{asset('frontend/logo/favicon.png')}}" />
 
     <!--font-awesome.min.css-->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/font-awesome.min.css')}}">
 
     <!--linear icon css-->
-    <link rel="stylesheet" href="assets/css/linearicons.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/linearicons.css')}}">
 
     <!--flaticon.css-->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/flaticon.css')}}">
 
     <!--animate.css-->
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/animate.css')}}">
 
     <!--owl.carousel.css-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/css/owl.theme.default.min.css')}}">
 
     <!--bootstrap.min.css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/bootstrap.min.css')}}">
 
     <!-- bootsnav -->
-    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/bootsnav.css')}}">
 
     <!--style.css-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">
 
     <!--responsive.css-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
