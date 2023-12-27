@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MyController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
-Route::get('/index',function(){
-    return view('index');
-});
+Route::get('/index',[MyController::class,'index']);
+Route::get('/login',[MyController::class,'login'])->name('login.page');
+Route::get('/register',[MyController::class,'register'])->name('register.page');
