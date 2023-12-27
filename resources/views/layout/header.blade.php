@@ -7,11 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!--font-family-->
-    <link
-        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Rufina:400,700" rel="stylesheet">
 
@@ -71,15 +69,13 @@
         <div class="top-area">
             <div class="header-area">
                 <!-- Start Navigation -->
-                <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"
-                    data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+                <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy" data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
 
                     <div class="container">
 
                         <!-- Start Header Navigation -->
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                data-target="#navbar-menu">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                                 <i class="fa fa-bars"></i>
                             </button>
                             <a class="navbar-brand" href="index.html">carvilla<span></span></a>

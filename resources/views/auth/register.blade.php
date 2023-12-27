@@ -1,4 +1,11 @@
-@include('layout.header')
-@yield('main-section')
+@extends('layout.main')
+@push('title')
+<title>login</title>
+@endpush
 
-@include('layout.footer')
+@section('main-section')
+<h1>Register Here</h1>
+
+
+
+@endsection
