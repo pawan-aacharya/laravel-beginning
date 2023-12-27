@@ -12,7 +12,20 @@
     <div class="row">
         
     <div class="col-8">
-        hfhf
+       <form action="">
+            <div class="input-group">
+                <input type="text" class="form-control" name="" id="" placeholder="Full Name">
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" name="" id="" placeholder="Full Name">
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" name="" id="" placeholder="Full Name">
+            </div>
+            <div class="input-group">
+                <input type="submit" class="form-control" name="" id="" placeholder="Full Name">
+            </div>
+       </form>
     </div>
     
     </div>    
