@@ -190,7 +190,7 @@
                             <div class="row">
                                 <div class="col-md-7 col-sm-12">
                                     <div class="new-cars-img">
-                                        <img src="assets/images/new-cars-model/ncm1.png" alt="img" />
+                                        <img src="{{asset('frontend/images/new-cars-model/ncm1.png')}}" alt="img" />
                                     </div><!--/.new-cars-img-->
                                 </div>
                                 <div class="col-md-5 col-sm-12">
@@ -218,7 +218,7 @@
                             <div class="row">
                                 <div class="col-md-7 col-sm-12">
                                     <div class="new-cars-img">
-                                        <img src="assets/images/new-cars-model/ncm2.png" alt="img" />
+                                        <img src="{{asset('frontend/images/new-cars-model/ncm2.png')}}" alt="img" />
                                     </div><!--/.new-cars-img-->
                                 </div>
                                 <div class="col-md-5 col-sm-12">
@@ -246,7 +246,7 @@
                             <div class="row">
                                 <div class="col-md-7 col-sm-12">
                                     <div class="new-cars-img">
-                                        <img src="assets/images/new-cars-model/ncm3.png" alt="img" />
+                                        <img src="{{asset('frontend/images/new-cars-model/ncm3.png')}}" alt="img" />
                                     </div><!--/.new-cars-img-->
                                 </div>
                                 <div class="col-md-5 col-sm-12">
@@ -289,7 +289,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc1.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc1.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -314,7 +314,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc2.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc2.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -339,7 +339,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc3.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc3.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -364,7 +364,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc4.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc4.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -391,7 +391,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc4.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc4.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -416,7 +416,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc5.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc5.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -441,7 +441,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc7.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc7.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -466,7 +466,7 @@
                         <div class="single-featured-cars">
                             <div class="featured-img-box">
                                 <div class="featured-cars-img">
-                                    <img src="assets/images/featured-cars/fc8.png" alt="cars">
+                                    <img src="{{asset('frontend/images/featured-cars/fc8.png')}}" alt="cars">
                                 </div>
                                 <div class="featured-model-info">
                                     <p>
@@ -507,7 +507,7 @@
                             <div class="testimonial-description">
                                 <div class="testimonial-info">
                                     <div class="testimonial-img">
-                                        <img src="assets/images/clients/c1.png" alt="image of clients person" />
+                                        <img src="{{asset('frontend/images/clients/c1.png')}}" alt="image of clients person" />
                                     </div><!--/.testimonial-img-->
                                 </div><!--/.testimonial-info-->
                                 <div class="testimonial-comment">
@@ -528,7 +528,7 @@
                             <div class="testimonial-description">
                                 <div class="testimonial-info">
                                     <div class="testimonial-img">
-                                        <img src="assets/images/clients/c2.png" alt="image of clients person" />
+                                        <img src="{{asset('frontend/images/clients/c2.png')}}" alt="image of clients person" />
                                     </div><!--/.testimonial-img-->
                                 </div><!--/.testimonial-info-->
                                 <div class="testimonial-comment">
@@ -549,7 +549,7 @@
                             <div class="testimonial-description">
                                 <div class="testimonial-info">
                                     <div class="testimonial-img">
-                                        <img src="assets/images/clients/c3.png" alt="image of clients person" />
+                                        <img src="{{asset('frontend/images/clients/c3.png')}}" alt="image of clients person" />
                                     </div><!--/.testimonial-img-->
                                 </div><!--/.testimonial-info-->
                                 <div class="testimonial-comment">
@@ -579,34 +579,34 @@
                 <div class="owl-carousel owl-theme brand-item">
                     <div class="item">
                         <a href="#">
-                            <img src="assets/images/brand/br1.png" alt="brand-image" />
+                            <img src="{{asset('frontend/images/brand/br1.png')}}" alt="brand-image" />
                         </a>
                     </div><!--/.item-->
                     <div class="item">
                         <a href="#">
-                            <img src="assets/images/brand/br2.png" alt="brand-image" />
+                            <img src="{{asset('frontend/images/brand/br2.png')}}" alt="brand-image" />
                         </a>
                     </div><!--/.item-->
                     <div class="item">
                         <a href="#">
-                            <img src="assets/images/brand/br3.png" alt="brand-image" />
+                            <img src="{{asset('frontend/images/brand/br3.png')}}" alt="brand-image" />
                         </a>
                     </div><!--/.item-->
                     <div class="item">
                         <a href="#">
-                            <img src="assets/images/brand/br4.png" alt="brand-image" />
-                        </a>
-                    </div><!--/.item-->
-
-                    <div class="item">
-                        <a href="#">
-                            <img src="assets/images/brand/br5.png" alt="brand-image" />
+                            <img src="{{asset('frontend/images/brand/br4.png')}}" alt="brand-image" />
                         </a>
                     </div><!--/.item-->
 
                     <div class="item">
                         <a href="#">
-                            <img src="assets/images/brand/br6.png" alt="brand-image" />
+                            <img src="{{asset('frontend/images/brand/br5.png')}}" alt="brand-image" />
+                        </a>
+                    </div><!--/.item-->
+
+                    <div class="item">
+                        <a href="#">
+                            <img src="{{asset('frontend/images/brand/br6.png')}}" alt="brand-image" />
                         </a>
                     </div><!--/.item-->
                 </div><!--/.owl-carousel-->
